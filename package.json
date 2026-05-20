@@ -1,0 +1,31 @@
+{
+  "name": "wechatbot-node-sdk",
+  "version": "0.2.0",
+  "description": "基于微信机器人 API 封装的 Node.js SDK",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["wechat", "bot", "sdk", "wechatbot"],
+  "author": "花骨朵轻创",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.0",
+    "tsup": "^8.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+export { WeChatBotClient } from './client';
+export { ApiResponse, ClientOptions } from './types';
+export { AuthModule } from './modules/auth';
+export { MessageModule } from './modules/message';
+export { GroupModule } from './modules/group';
+export { ContactModule } from './modules/contact';
+export { PersonalModule } from './modules/personal';
+export { FavoriteModule } from './modules/favorite';
+export { LabelModule } from './modules/label';
+export { DownModule } from './modules/download';
+export { SnsModule } from './modules/sns';
+export { FinderModule } from './modules/finder';
