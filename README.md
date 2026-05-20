@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-npm install wechatbot-node-sdk
+npm install
 ```
 
 ## 快速开始
