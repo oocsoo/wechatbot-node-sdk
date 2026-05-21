@@ -4,7 +4,7 @@
 
 ## 安装
 ```bahs
-git clone https://github.com/oocsoo/wechatbot-node-sdk.git test-clone
+git clone https://github.com/oocsoo/wechatbot-node-sdk
 ```
 ```bash
 cd wechatbot-node-sdk
