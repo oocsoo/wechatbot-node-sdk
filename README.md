@@ -3,9 +3,14 @@
 基于WeChatBot开放平台API封装的 Node.js SDK（TypeScript），提供简洁易用的接口调用方式。
 
 ## 安装
-
+```bahs
+git clone https://github.com/oocsoo/wechatbot-node-sdk.git test-clone
+```
 ```bash
-npm install oocsoo/wechatbot-node-sdk
+cd wechatbot-node-sdk
+```
+```bash
+npm install
 ```
 
 ## 快速开始
