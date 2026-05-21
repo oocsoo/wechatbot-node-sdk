@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-npm install
+npm install oocsoo/wechatbot-node-sdk
 ```
 
 ## 快速开始
